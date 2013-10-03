@@ -161,6 +161,26 @@ __BEGIN_DECLS
 #define AUDIO_OFFLOAD_CODEC_DELAY_SAMPLES  "delay_samples"
 #define AUDIO_OFFLOAD_CODEC_PADDING_SAMPLES  "padding_samples"
 
+
+/* Query voip flag */
+#define AUDIO_PARAMETER_KEY_VOIP_CHECK "voip_flag"
+
+/* Query Fluence type */
+#define AUDIO_PARAMETER_KEY_FLUENCE_TYPE "fluence"
+
+/* Query if surround sound recording is supported */
+#define AUDIO_PARAMETER_KEY_SSR "ssr"
+
+/* Query if a2dp  is supported */
+#define AUDIO_PARAMETER_KEY_HANDLE_A2DP_DEVICE "isA2dpDeviceSupported"
+
+/* Query ADSP Status */
+#define AUDIO_PARAMETER_KEY_ADSP_STATUS "ADSP_STATUS"
+
+/* Query if Proxy can be Opend */
+#define AUDIO_CAN_OPEN_PROXY "can_open_proxy"
+
+
 /**************************************/
 
 /* common audio stream parameters and operations */
